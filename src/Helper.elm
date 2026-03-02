@@ -55,4 +55,3 @@ airplaneScheduleAction status =
 airportAction : List AirplaneStatus -> List String
 airportAction statuses =
     List.map airplaneScheduleAction statuses
-
